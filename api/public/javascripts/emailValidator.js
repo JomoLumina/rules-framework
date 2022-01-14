@@ -65,9 +65,9 @@ function validateAllRules(email){
 function validateAllListedEmails(){
     var emails = data.emails;
     var output = [];
-    emails.forEach((email,index) => {
-        var results = validateAllRules(email);
-        if(output.some(element => element.email === email)){
+    emails.forEach((address,index) => {
+        var results = validateAllRules(address);
+        if(output.some(element => element.address === address)){
             results = {
                 valid: false,
                 reason: messages.DUPLICATE_EMAIL
@@ -75,7 +75,7 @@ function validateAllListedEmails(){
         }
         output.push({
             id: ++index,
-            address: email,
+            address: address,
             ...results
         })
     });

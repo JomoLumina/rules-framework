@@ -5,7 +5,7 @@
     "EMAILS_NOT_FOUND":  "No emails where found on the server",
     "WORDS_NOT_FOUND": "No blacklisted words where found on the server",
     "DOMAINS_NOT_FOUND": "No blacklisted domains where found on the server",
-    "DUPLICATE_EMAIL": "The email address is already in the list",
+    "DUPLICATE_EMAIL": "Duplicate email address",
     "EMAIL_HAS_SPACES": "The email address contains spaces",
     "EMAIL_HAS_REPEATS": "The email address contains repeated letters",
     "EMAIL_IS_NOT_ALPHANUMERIC": "The email address contains special characters",

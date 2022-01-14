@@ -6,6 +6,8 @@ import {
   Box, Table, TableBody, TableCell, TableHead, TableRow,
 } from '@material-ui/core';
 import { Email } from '../../../types/email';
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import CancelIcon from '@material-ui/icons/Cancel';
 
 interface EmailsTableProps {
   paginatedEmails: Email[];
@@ -58,7 +60,8 @@ const EmailsTable: FC<EmailsTableProps> = ({
                     alignItems="center"
                     justifyContent="center"
                   >
-                      {email.valid}
+                    {email.valid && <CheckCircleIcon color='secondary'></CheckCircleIcon>} 
+                    {!email.valid && <CancelIcon  color='error'></CancelIcon>} 
                   </Box>
                 </TableCell>
                 <TableCell align="center">
