@@ -1,0 +1,16 @@
+
+{ 
+    "EMAIL_NOT_PROVIDED":  "No email address was provided",
+    "EMAIL_NOT_VALID":  "THe email address provided is not valid",
+    "EMAILS_NOT_FOUND":  "No emails where found on the server",
+    "WORDS_NOT_FOUND": "No blacklisted words where found on the server",
+    "DOMAINS_NOT_FOUND": "No blacklisted domains where found on the server",
+    "DUPLICATE_EMAIL": "The email address is already in the list",
+    "EMAIL_HAS_SPACES": "The email address contains spaces",
+    "EMAIL_HAS_REPEATS": "The email address contains repeated letters",
+    "EMAIL_IS_NOT_ALPHANUMERIC": "The email address contains special characters",
+    "USER_IS_BLACKLISTED": "This username has been blacklisted",
+    "DOMAIN_IS_BLACKLISTED": "This domain has been blacklisted"
+}
+
+

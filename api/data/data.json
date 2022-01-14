@@ -1,0 +1,37 @@
+{
+    "emails": [
+        "brickbat@yahoo.com",
+        "bsik@dar@att.net",
+        "itstatus@free.com",
+        "stefa/no@me.com",
+        "paina@att.net",
+        "king@gmail.com",
+        "neona tus@aol.com",
+        "singrrrer@att.net",
+        "sfoskett@yahoo.ca",
+        "ducasse@kings.cop",
+        "podmaster-123@hotmail.com",
+        "kiss@mac.com",
+        "gmcgath@co.eq",
+        "king@gmail.com",
+        "keijser@aol.com",
+        "hampton@hotmail.com",
+        "paina@att.net"
+    ],
+    "blacklist":{
+        "words":[
+            "sfoskett",
+            "gmcgath",
+            "neonatus",
+            "frown",
+            "kiss"
+        ],
+        "domains":[
+            "kingshighway.cop",
+            "free.com",
+            "attr.net",
+            "co.eq",
+            "free.co"
+        ]
+    }
+}
