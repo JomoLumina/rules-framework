@@ -8,21 +8,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   var results = validator.validateAllListedEmails();
   if(results){
-    return res.json({
-      status: "success",
-      statusCode: 200,
-      data: {
-        emails: results
-      }
-    })
+    return res.json({emails: results})
   }
-  return res.json({
-    status: 'error',
-    statusCode: '400',
-    data: {
-      message: messages.EMAILS_NOT_FOUND
-    }
-  })
+  return res.json({ message: messages.EMAILS_NOT_FOUND })
 });
 
 module.exports = router;

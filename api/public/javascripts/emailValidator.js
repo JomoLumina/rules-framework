@@ -65,7 +65,7 @@ function validateAllRules(email){
 function validateAllListedEmails(){
     var emails = data.emails;
     var output = [];
-    emails.forEach((email) => {
+    emails.forEach((email,index) => {
         var results = validateAllRules(email);
         if(output.some(element => element.email === email)){
             results = {
@@ -74,7 +74,8 @@ function validateAllListedEmails(){
             }
         }
         output.push({
-            email: email,
+            id: ++index,
+            address: email,
             ...results
         })
     });
